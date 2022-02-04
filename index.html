@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Webpage</title>
+    </head>
+        <style>
+            ul {
+            list-style-type: none;
+            margin:auto;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+            /* width: 1366px; */
+            }
+            
+            li {
+            float: left;
+            }
+            
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            }
+            
+            li a:hover {
+            background-color: #111111;
+
+            }
+
+            .load{
+                width: 300px;
+                /* height:400px; */
+                float: left;
+                margin-top: 6px;
+                
+            }
+
+        </style>
+    <body bgcolor="grey">
+                    <div style="text-align: center;"><h1><STRONG>WELCOME TO MY WEBPAGE</STRONG></h1></div>
+
+                <ul>
+                    <li> <a href = "index.html"><strong>home</strong></a></li>
+                    <li> <a href = "about.html"><strong>About</strong></a></li>
+                    <li> <a href = "Contact.html"><strong>Contact Us</strong></a></li>
+                    <li> <a href = "blog.html"><strong>Blog</strong></a></li>
+                </ul>
+                <div class="load">
+                    <form action="/Capbay/index.php" method="post" style="margin: 7px; ">
+                        <label for="fname"><strong>First name:</strong></label> <br>
+                        <input type="text" id="fname" placeholder="first name"><br><br>
+                        <label for="lname"><strong>Surname:</strong></label> <br>
+                        <input type="text" id="fname" placeholder="last name"><br><br>
+                        <label for="email"><strong>E-mail:</strong></label> <br>
+                        <input type="email" id="fname" placeholder="email"><br><br>
+                        <label for="password"><strong>Password:</strong></label><br>
+                        <input type="password" id="password" placeholder="password" required><br><br>
+                        <label for="gender"><strong>Gender</strong></label><br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">female</label><br>
+                        <input type="radio" id="rather" name="gender" value="rather">
+                        <label for="rather">rather not say</label><br><br>
+                        <label for="food"><strong>Favourite food</strong></label><br>
+                        <input type="checkbox" id="Beans" name="gender" value="Beans">
+                        <label for="Beans">Beans</label><br>
+                        <input type="checkbox" id="Rice" name="gender" value="Rice">
+                        <label for="Rice">Rice</label><br>
+                        <input type="checkbox" id="Spaghetti" name="gender" value="Spaghetti">
+                        <label for="Spaghetti">Spaghetti</label><br>
+                        <input type="checkbox" id="Soup" name="gender" value="Soup">
+                        <label for="Soup">Soup</label><br>
+                        <input type="checkbox" id="Pizza" name="gender" value="Pizza">
+                        <label for="Pizza">Pizza</label><br>
+                        <label for="certificate"><strong>Highest Certificate:</strong></label><br>
+                            <select name="certificate" id="certificate">
+                                <option value=""></option>
+                                <option value="FSLC">FSLC</option>
+                                <option value="OLEVEL">O'LEVEL</option>
+                                <option value="BSc">BSc</option>
+                            </select><br>
+                        <label for="number"><strong>Phone Number:</strong></label> <br>
+                        <input type="tel" id="number" placeholder="phone number"><br><br>
+                        <label for="textarea"><strong>About me</strong></label><br>
+                        <textarea id="textarea" name="textarea" rows="10" cols="60">
+Hello there, this is my about page which you'd read about me.
+My name is Ekong, Samuel a student of University of Cross River (UNICROSS), 
+faculty of physical science, department of compurter science, 300 level.
+I love enveloping myself with things and people that are tech related having fair knowledge about HTML, CSS, Javascript, PHP and GoLang.
+I play chess for leisure.
+                        </textarea><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+    </body>
+</html>
