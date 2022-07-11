@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* body {
+        background-image: url("angryimg.png");
+        background-repeat: no-repeat;
+        background-position: top left;
+        margin-right: 200px;
+        background-attachment: scroll;
+        } */
+
+      body {
+        width: 80%;
+      }
+      /* div {
+          background: rgb(0, 0, 250);
+        }
+        
+        div.first {
+          background: rgba(0, 0, 250, 0.1);
+        }
+        
+        div.second {
+          background: rgba(0, 0, 250, 0.3);
+        }
+        
+        div.third {
+          background: rgba(0, 0, 250, 0.6);
+        } */
+
+      #parent {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+      #child {
+        width: inherit;
+        height: 20px;
+        background-color: red;
+        height:ini;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="child"></div>
+    </div>
+
+    <!-- <h2>RESULT WITH OPACITY</h2>
+        
+        <div style="opacity:0.1;">
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <div style="opacity:0.3;">
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <div style="opacity:0.6;">
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <div>
+          <h1>THIS IS A DIV</h1>
+        </div> <br><br>
+        
+        <h2>RESULT WITH RGBA</h2>
+        
+        <div class="first">
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <div class="second">
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <div class="third">
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <div>
+          <h1>THIS IS A DIV</h1>
+        </div>
+        
+        <p>Notice how the text gets transparent as well as the background color when using the opacity property.</p> -->
+
+    <!-- <div><h1>BACKGROUND IMAGE</h1></div>
+        <div style="margin-top:10px;">
+          <span style="margin-left:70px; margin-right:100px; ">
+              <input type="radio" name="payments" id="flutterwave" value="flutterwave" checked>
+              <label for="flutterwave">
+              <img src="{{ asset('images/payments/flutterwave.png')}}"
+                          width="50" alt="flutterwave logo" 
+                          style="border-radius:50%;">
+                              <h3 style="display:inline;">Flutterwave (FIAT)</h3></label> 
+          </span>
+          <span style="margin-left:100px; ">
+              <input type="radio" name="payments" id="lazerpay" value="lazerpay">
+              <label for="lazerpay">
+              <img src="{{ asset('images/payments/lazerpay.png')}}"
+                          width="50" alt="lazerpay logo" 
+                          style="border-radius:50%;">
+                          <h3 style="display:inline;">Lazerpay (Crypto)</h3></label>
+          </span>
+      </div> -->
+  </body>
+</html>

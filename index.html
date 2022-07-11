@@ -7,6 +7,9 @@
         <title>My First Webpage</title>
     </head>
         <style>
+            .body{
+                background-color: #f0f0f0;
+            }
             ul {
             list-style-type: none;
             margin:auto;
@@ -47,9 +50,13 @@
 
                 <ul>
                     <li> <a href = "index.html"><strong>home</strong></a></li>
-                    <li> <a href = "about.html"><strong>About</strong></a></li>
-                    <li> <a href = "Contact.html"><strong>Contact Us</strong></a></li>
-                    <li> <a href = "blog.html"><strong>Blog</strong></a></li>
+                    <li> <a href = "others/about.html"><strong>About</strong></a></li>
+                    <li> <a href = "others/Contact.html"><strong>Contact Us</strong></a></li>
+                    <li> <a href = "others/blog.html"><strong>Blog</strong></a></li>
+                    <li> <a href = "index.html"><strong>home</strong></a></li>
+                    <li> <a href = "others/about.html"><strong>About</strong></a></li>
+                    <li> <a href = "others/Contact.html"><strong>Contact Us</strong></a></li>
+                    <li> <a href = "others/blog.html"><strong>Blog</strong></a></li>
                 </ul>
                 <div class="load">
                     <form action="/Capbay/index.php" method="post" style="margin: 7px; ">
@@ -61,6 +68,8 @@
                         <input type="email" id="fname" placeholder="email"><br><br>
                         <label for="password"><strong>Password:</strong></label><br>
                         <input type="password" id="password" placeholder="password" required><br><br>
+
+                        
                         <label for="gender"><strong>Gender</strong></label><br>
                         <input type="radio" id="male" name="gender" value="male">
                         <label for="male">male</label><br>
@@ -68,6 +77,8 @@
                         <label for="female">female</label><br>
                         <input type="radio" id="rather" name="gender" value="rather">
                         <label for="rather">rather not say</label><br><br>
+
+
                         <label for="food"><strong>Favourite food</strong></label><br>
                         <input type="checkbox" id="Beans" name="gender" value="Beans">
                         <label for="Beans">Beans</label><br>
